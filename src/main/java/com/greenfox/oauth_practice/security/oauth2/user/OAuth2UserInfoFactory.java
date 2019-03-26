@@ -1,6 +1,7 @@
 package com.greenfox.oauth_practice.security.oauth2.user;
 
 import com.greenfox.oauth_practice.entity.AuthProvider;
+import com.greenfox.oauth_practice.exception.OAuth2AuthenticationProcessingException;
 
 import java.util.Map;
 
