@@ -1,5 +1,6 @@
 package com.greenfox.oauth_practice.configuration;
 
+import com.greenfox.oauth_practice.security.oauth2.CustomOAuth2UserService;
 import com.greenfox.oauth_practice.security.oauth2.HttpCookieOAuth2AuthorizationRequestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
