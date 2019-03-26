@@ -1,5 +1,8 @@
 package com.greenfox.oauth_practice.configuration;
 
+import com.greenfox.oauth_practice.security.CustomUserDetailsService;
+import com.greenfox.oauth_practice.security.RestAuthenticationEntryPoint;
+import com.greenfox.oauth_practice.security.TokenAuthenticationFilter;
 import com.greenfox.oauth_practice.security.oauth2.CustomOAuth2UserService;
 import com.greenfox.oauth_practice.security.oauth2.HttpCookieOAuth2AuthorizationRequestRepository;
 import com.greenfox.oauth_practice.security.oauth2.OAuth2AuthenticationFailureHandler;
