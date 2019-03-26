@@ -4,6 +4,7 @@ import com.greenfox.oauth_practice.entity.AuthProvider;
 import com.greenfox.oauth_practice.entity.User;
 import com.greenfox.oauth_practice.exception.OAuth2AuthenticationProcessingException;
 import com.greenfox.oauth_practice.repository.UserRepository;
+import com.greenfox.oauth_practice.security.UserPrincipal;
 import com.greenfox.oauth_practice.security.oauth2.user.OAuth2UserInfo;
 import com.greenfox.oauth_practice.security.oauth2.user.OAuth2UserInfoFactory;
 import org.springframework.beans.factory.annotation.Autowired;

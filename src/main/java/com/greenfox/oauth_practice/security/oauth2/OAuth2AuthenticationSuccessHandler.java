@@ -2,6 +2,7 @@ package com.greenfox.oauth_practice.security.oauth2;
 
 import com.greenfox.oauth_practice.configuration.AppProperties;
 import com.greenfox.oauth_practice.exception.BadRequestException;
+import com.greenfox.oauth_practice.security.TokenProvider;
 import com.greenfox.oauth_practice.util.CookieUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
